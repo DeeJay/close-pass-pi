@@ -45,13 +45,13 @@ try:
         # TODO : on trigger write buffer to disk.
         #if(sensor.distance > 0 and  sensor.distance < minDistance):
             print("Too Close... Recording");
-            camera.wait_recording(5)
+            camera.wait_recording(2)
             stream.copy_to("/home/pi/Desktop/motion{}.h264".format(i));
             print("Recording Ended");
             buzzer.off()
             i += 1
-            if i> 10:
-                break
+            #if i> 10:
+            #    break
                 # Keep recording for 10 seconds and only then write the
                 # stream to disk
             
