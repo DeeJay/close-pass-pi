@@ -1,4 +1,4 @@
-# close-pass-pi
+# Close Pass Pi
 Use pi camera and LiDAR / ultrasound to detect and record drivers passing bikes badly.  
 
 Project started at #picademy.
