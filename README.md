@@ -11,6 +11,13 @@ Project started at #picademy.
 
 Please note at the moment I'm just hacking away on the platform, I'm not sure if anyone could or should use this evidence but its worth a go.
 
+## Idea
+* Put a distance sensor, pi camera, pi and battery into a saddle bag which fits under the bike seat. 
+ * Distance sensor pointing to the right
+ * Camera pointing backwards
+* Have code looping around measuring distance
+ * if car is too close start bleeping & record for another 10 seconds and save that to disk. Using a circular video buffer to be able to decide whether to record a cars overtake to disk after they have got too close.
+
 ## Hardware 
 
 * A Pi
@@ -30,8 +37,3 @@ Please note at the moment I'm just hacking away on the platform, I'm not sure if
 * This one is hard to use https://github.com/johnbryanmoore/VL53L0X_rasp_python so I'll be looking for something easier
 * https://picamera.readthedocs.io/en/release-1.13/
 
-
-## Technique
-* Loop around measuring distance, if car is too close start bleeping & record for another 10 seconds and save that to disk
-* Currently we use a circular video buffer to be able to decide whether to record a cars overtake to disk after they have got too close.
-  
