@@ -30,9 +30,9 @@ Please note at the moment I'm just hacking away on the platform, I'm not sure if
   * First go was with this VL53L0X based one https://www.amazon.co.uk/SODIAL-VL53L0X-Flight-Distance-GY-VL53L0XV2/dp/B075LHC51D
   * This alternative may work https://shop.pimoroni.com/products/vl53l1x-breakout 
   
-![Ultrasound Build 1](/docs/imgs/Ultrasound+Build+1.jpg)
+![Ultrasound Build 1](/docs/imgs/Ultrasound_Build_1.jpg)
 
-![LiDAR Build 1](/docs/imgs/LiDAR Build 1.jpg)
+![LiDAR Build 1](/docs/imgs/LiDAR_Build_1.jpg)
   
 
 ## Software
